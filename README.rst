@@ -68,7 +68,7 @@ The following example illustrates the ease of use of this package:
 
 The detector returns a list of JSON objects. Each JSON object contains three main keys: 'box', 'confidence' and 'keypoints':
 
-- The bounding box is formatted as [x, y, width, height] under the key 'box'.
+- The bounding box is formatted as [x, y, width, height] under the key 'box', (x, y) là tọa độ của góc trên bên trái bounding box.
 - The confidence is the probability for a bounding box to be matching a face.
 - The keypoints are formatted into a JSON object with the keys 'left_eye', 'right_eye', 'nose', 'mouth_left', 'mouth_right'. Each keypoint is identified by a pixel position (x, y).
 
